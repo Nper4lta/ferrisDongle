@@ -70,6 +70,6 @@ kscan0: kscan {
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 };
