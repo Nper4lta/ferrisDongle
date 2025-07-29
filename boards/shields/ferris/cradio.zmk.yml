@@ -9,4 +9,4 @@ features:
 siblings:
   - cradio_left
   - cradio_right
-  - ferris_dongle
+  - cradio_dongle

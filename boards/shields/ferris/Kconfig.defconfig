@@ -4,7 +4,7 @@
 # Edited: July 29 2025
 
 
-if SHIELD_FERRIS_DONGLE
+if SHIELD_CRADIO_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Nper"
@@ -18,7 +18,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 
-# set number of peripherals and desired number of BT profiles 
+# set number of peripherals and desired number of BT profiles
 
 config BT_MAX_CONN
     default 6
@@ -30,7 +30,7 @@ config BT_MAX_PAIRED
 
 endif
 
-if SHIELD_CRADIO_LEFT || SHIELD_CRADIO__RIGHT || SHIELD_FERRIS_DONGLE
+if SHIELD_CRADIO_LEFT || SHIELD_CRADIO__RIGHT || SHIELD_CRADIO_DONGLE
 
 config ZMK_SPLIT
     default y
