@@ -5,7 +5,7 @@
 // Edited: July 29 2025
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "cradio.dtsi"
+#include "cradio.dtsi"
 
 / {
     chosen {
