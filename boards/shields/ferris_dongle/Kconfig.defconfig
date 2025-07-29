@@ -33,3 +33,10 @@ config BT_MAX_PAIRED
     default 6
 
 endif
+
+if SHIELD_CRADIO_LEFT || SHIELD_CRADIO__RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
