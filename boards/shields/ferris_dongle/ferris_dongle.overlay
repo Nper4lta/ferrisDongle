@@ -59,6 +59,15 @@ kscan0: kscan {
 };
 
 / {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,phyiscal-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+    };
+};
+
+
+/ {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &default_transform;
