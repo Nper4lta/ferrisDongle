@@ -2,7 +2,7 @@ file_format: "1"
 id: cradio
 name: cradio
 type: shield
-url: https://github.com/davidphiliparr/Sweep
+url: https://github.com/davidphilipbarr/Sweep
 requires: [pro_mirco]
 features: 
   - keys
