@@ -1,0 +1,12 @@
+file_format: "1"
+id: cradio
+name: cradio
+type: shield
+url: https://github.com/davidphiliparr/Sweep
+requires: [pro_mirco]
+features: 
+  - keys
+siblings:
+  - cradio_left
+  - cradio_right
+  - ferris_dongle
