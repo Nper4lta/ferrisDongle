@@ -3,10 +3,10 @@ id: cradio
 name: cradio
 type: shield
 url: https://github.com/davidphilipbarr/Sweep
-requires: [pro_mirco]
-features: 
+requires: [pro_micro]
+features:
   - keys
 siblings:
   - cradio_left
   - cradio_right
-  - ferris_dongle
+  - cradio_dongle
