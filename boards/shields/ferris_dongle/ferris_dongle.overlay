@@ -4,7 +4,6 @@
 // Edited: July 29 2025
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "ferris_dongle.dtsi"
 
 / {
     chosen {
