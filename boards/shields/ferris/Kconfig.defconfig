@@ -7,12 +7,9 @@
 if SHIELD_FERRIS_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Nper4lta"
+    default "Nper"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-config ZMK_SPLIT
     default y
 
 # Set number of peripherals the dongle will have
@@ -33,7 +30,7 @@ config BT_MAX_PAIRED
 
 endif
 
-if SHIELD_CRADIO_LEFT || SHIELD_CRADIO__RIGHT
+if SHIELD_CRADIO_LEFT || SHIELD_CRADIO__RIGHT || SHIELD_FERRIS_DONGLE
 
 config ZMK_SPLIT
     default y
