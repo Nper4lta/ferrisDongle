@@ -1,0 +1,11 @@
+# The Kconfig shield
+#
+# Created by: Nathan Peralta
+# Created: July 29 2025
+# Edited: July 29 2025
+
+
+config SHIELD_FERRIS_DONGLE
+    def_bool $(shields_list_contains,ferrisdongle)
+
+
