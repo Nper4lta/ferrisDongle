@@ -1,5 +1,0 @@
-#include "cradio.dtsi"
-
-&default_transform{
-    col-offest = <17>;
-};
