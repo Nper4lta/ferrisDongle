@@ -1,7 +1,7 @@
 # The Kconfig shield
 #
 # Created: July 29 2025
-# Edited: 2025-Aug-01 20:26
+# Edited: 2025-Aug-01 20:33
 
 
 config SHIELD_CRADIO_DONGLE

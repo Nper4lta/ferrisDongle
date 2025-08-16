@@ -1,13 +1,13 @@
 # Defconfig
 #
 # Created: July 29 2025
-# Edited: July 29 2025
+# Edited: 2025-Aug-16 11:45
 
 
 if SHIELD_CRADIO_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Nper"
+    default "ばか"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
