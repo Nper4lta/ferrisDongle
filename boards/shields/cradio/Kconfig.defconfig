@@ -26,15 +26,8 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 config BT_MAX_CONN
     default 6
 
-# Set to the same number as BT_MAX_CONN
-
-# config BT_MAX_PAIRED
-#    default 6
-
-# config CONFIG_ZMK_SPLIT_BLE 
-#    default y
-
-# config ZMK_SPLIT_PERIPHERAL_HID_INDICATORS=y
+config ZMK_USB
+    default y
 
 endif
 
@@ -58,6 +51,9 @@ config ZMK_SPLIT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
+
+config ZMK_BLE 
+    default y
 
 # config CONFIG_ZMK_SPLIT_BLE 
 #    default y
