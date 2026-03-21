@@ -28,9 +28,9 @@ include:
  # - board: nice_nano_v2
  #   shield: cradio_dongle
  #xiao_ble//zmk
-  - board: xiao_ble//zmk #seeeduino_xiao_ble 
+  - board: seeeduino_xiao_ble 
     shield: cradio_dongle prospector_adapter
-  - board: xiao_ble//zmk #seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: nice_nano_v2
     shield: settings_reset
