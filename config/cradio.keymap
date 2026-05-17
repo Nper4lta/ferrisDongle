@@ -124,6 +124,7 @@
 
         gitPush: gitPushMacro {
             label = "GITPUSHMACRO";
+            layers = <1>;
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
