@@ -19,7 +19,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 # 1 for unibody while 2 for left and right and then etc
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 2
+    default 3
 
 # set number of peripherals and desired number of BT profiles
 
