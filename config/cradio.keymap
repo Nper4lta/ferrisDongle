@@ -258,8 +258,8 @@
             display-name = "Settings";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │ Clear BT │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans  &kp C_VOL_UP    &bt BT_CLR  &bt BT_SEL 0    &tog GAMING  &trans &out OUT_BLE &out OUT_USB    &sys_reset
+        //│ RESET    │          │          │ Clear BT │PROFILE 0 │   │          │          |Bluetooth |  Dongle  │  RESET   │
+        &sys_reset  &trans  &kp C_VOL_UP    &bt BT_CLR  &bt BT_SEL 0 &tog GAMING  &trans   &out OUT_BLE &out OUT_USB    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans  &kp C_VOL_DN     &trans    &bt BT_SEL 1   &trans     &trans     &trans     &trans    &bootloader
